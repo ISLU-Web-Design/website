@@ -1,0 +1,5 @@
+/* usar fonte da pasta font */
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../font/TT\ Rounds\ Neue\ Trial\ Condensed\ Regular.ttf')format('truetype');
+}
