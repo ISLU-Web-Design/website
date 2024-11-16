@@ -53,7 +53,7 @@
                 <img src="img/about_example.jpg" alt="Quem Somos" class="img-fluid img-about">
             </div>
             <div class="col-md-6">
-                <h2>Quem Somos</h2>
+                <h2>Sua Visão, Nosso Design</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     . Nulla nec purus feugiat, molestie ipsum et, consequat nibh.
@@ -88,7 +88,7 @@
     </section>
 
     <!-- projects -->
-    <section id="projects" class="container bg-purple py-3">
+    <section id="projects" class="container py-3">
         <h2 class="text-center py-2">
             Projetos
         </h2>
@@ -98,6 +98,45 @@
             <a class="btn btn-lg btn-projects" href="projects.html">
                 Ver Mais
             </a>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <h2>Contato</h2>
+                <p>
+                    Estamos prontos para transformar suas ideias em realidade! Entre em contato e descubra como podemos
+                    ajudar sua marca a brilhar no mundo digital. 
+                    Preencha o formulário abaixo ou fale conosco via WhatsApp clicando no ícone no canto inferior.
+                </p>
+
+                <!-- form com inputs nome, whatsapp, mensagem e botao-->
+                <form action="send.php" method="post" class="form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="whatsapp" class="form-label">WhatsApp</label>
+                        <input type="tel" class="form-control" id="whatsapp" name="whatsapp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">
+                        Entrar no mundo digital
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+
+            </div>
+
+            <div class="col-md-6 div-img-contact">
+                <img src="img/about_example.jpg" alt="Quem Somos" class="img-fluid img-contact">
+            </div>
         </div>
     </section>
 
@@ -120,8 +159,27 @@
     <a class="whatsapp-button"
         href="https://wa.me/5531999105993?text=Olá!%20Eu%20vim%20pelo%20site%20da%20Islu%20Web%20Design%20🌐✨%20Estou%20interessado%20em%20mais%20informações!"
         target="_blank" aria-label="Enviar mensagem no WhatsApp">
-        <i class="fab fa-whatsapp"></i> 
+        <i class="fab fa-whatsapp"></i>
     </a>
+
+    <!-- pop-up -->
+    <div id="popup" class="popup-overlay" onclick="nextImage(event)">
+        <div class="popup-content">
+
+            <!-- Lista de imagens -->
+            <img src="https://images.pexels.com/photos/12211113/pexels-photo-12211113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Imagem 1" id="popup-img-1" class="popup-img">
+            <!-- <img src="https://images.pexels.com/photos/3002463/pexels-photo-3002463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Imagem 2" id="popup-img-2" class="popup-img" style="display: none;">
+            <img src="https://images.pexels.com/photos/14596081/pexels-photo-14596081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Imagem 3" id="popup-img-3" class="popup-img" style="display: none;"> -->
+
+            <!-- Fechar -->
+            <button class="popup-close-btn" onclick="closePopup()">
+                <i class="fas fa-xmark"></i>
+            </button>
+        </div>
+    </div>
 
 
     <!-- scripts -->
@@ -130,6 +188,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script type="module" src="js/script.js"></script>
+    <script src="js/popup.js"></script>
 </body>
 
 </html>

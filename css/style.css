@@ -15,6 +15,54 @@ body {
     font-family: 'TT Rounds Neue Trial Condensed Regular';
 }
 
+/* pop-up */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+    display: none;
+}
+
+.popup-content {
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-width: 100%; 
+    max-height: 90vh; 
+}
+
+.popup-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    border: none;
+    background: transparent;
+    cursor: pointer; 
+}
+
+.popup-close-btn:hover {
+    scale: 1.2;
+}
+
 /* nav */
 .navbar {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -54,13 +102,7 @@ body {
     }
 }
 
-/* projects */
-.bg-purple {
-    background-color: var(--purple);
-    color: #fff;
-    border-radius: 10px;
-}
-
+/* projects */ 
 .card {
     position: relative;
     overflow: hidden;
@@ -109,7 +151,7 @@ body {
 .btn-projects:hover {
     background-color: #fff;
     color: var(--purple);
-    border: 1px solid #fff;
+    border: 1px solid var(--purple);
     transition: 0.5s;
     scale: 1.1;
 }
@@ -160,6 +202,27 @@ body {
 
     .carousel img {
         width: 100px;
+    }
+}
+
+/* contact */ 
+.div-img-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-contact {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40%
+}
+
+@media (max-width: 768px) {
+
+    .img-contact {
+        width: 80%;
     }
 }
 
