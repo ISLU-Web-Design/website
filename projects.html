@@ -13,66 +13,111 @@
 </head>
 
 <body>
+    <!-- loading -->
+    <div class="loading">
+        <img src="img/loading_islu.gif" alt="Carregando" class="loading-img">
+    </div>
     
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/icons/icon_islu_tp.svg" alt="Islu Web Design" width="50" height="50">
                 Islu Web Design
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#about">Quem Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#services">O que Fazemos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#projects">Projetos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact">Contato</a>
-                    </li>
-                </ul>
-            </div>
+            </a> 
         </div>
     </nav> 
 
     <!-- projects -->
-    <section id="projects" class="container py-3">
+    <section id="projects" class="container py-3 animate">
         <h2 class="text-center py-2">
-            Projetos
+            Projetos  
         </h2>
 
         <p class="text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Nulla nec purus feugiat, molestie ipsum et, consequat nibh. 
-            Etiam non elit dui. Nullam vel erat et nunc egestas congue.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Nulla nec purus feugiat, molestie ipsum et, consequat nibh.  
+            Veja o resultado de quem confiou no nosso design!
         </p>
 
         <div class="row" id="projects-container"> 
         </div> 
     </section> 
 
+    <section id="contact" class="container animate">
+        <div class="row">
+
+            <div class="col-md-6">
+                <h2>Contato</h2>
+                <p>
+                    Estamos prontos para transformar suas ideias em realidade! Entre em contato e descubra como podemos
+                    ajudar sua marca a brilhar no mundo digital.
+                    Preencha o formulário abaixo ou fale conosco via WhatsApp clicando no ícone no canto inferior.
+                </p>
+
+                <form class="form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="whatsapp" class="form-label">WhatsApp</label>
+                        <input type="tel" class="form-control" id="whatsapp" name="whatsapp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="solucao" class="form-label">Solução Desejada</label>
+                        <select class="form-select" id="solucao" name="solucao" required>
+                            <option value="" selected disabled>Selecione a Solução</option>
+                            <option value="landing-page">Landing Page</option>
+                            <option value="ux-ui">UX/UI Design</option>
+                            <option value="website">Website</option>
+                            <option value="identidade-visual">Identidade Visual</option>
+                            <option value="logotipo">Logotipo</option>
+                            <option value="aplicativo-web">Aplicativo Web</option>
+                            <option value="arte-grafica">Arte Gráfica</option>
+                            <option value="animacao">Animação</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                    </div>
+                    <button type="button" onclick="btnSend()" class="btn btn-pink w-100">
+                        Entrar no mundo digital
+                        <!-- <i class="fas fa-arrow-right"></i> -->
+                    </button>
+                </form>
+
+            </div>
+
+            <div class="col-md-6 div-img-contact">
+                <img src="img/capa_contact.svg" alt="Contato" class="img-fluid img-contact">
+            </div>
+        </div>
+    </section>
+
     <!-- footer -->
     <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <small class="col-md-4 mb-0 text-body-secondary">
-                © 2021 ~ 2024 Islu Web Design 
-            </small>
+        <footer class="flex-wrap justify-content-between align-items-center py-3 my-4 border-top footer-desktop">
+            <small class="col-md-4 text-body-secondary">Sua Visão, Nosso Design</small>
 
-            <a href="/"
+            <a href="index.html"
                 class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                 <img src="img/icons/icon_islu_tp.svg" alt="Islu Web Design" width="50" height="50">
             </a>
-            <small class="text-body-secondary">Sua Visão, Nosso Design</small> 
+            <small class="col-md-4 mb-0 text-body-secondary">
+                Todos os direitos reservados. © 2021 - 2024 Designed by Islu Web Design
+            </small>
+        </footer>
+
+        <footer class="row py-3 my-4 border-top footer-mobile text-center">
+            <small class="col-12 text-body-secondary">Sua Visão, Nosso Design</small>
+            <small class="col-12 mb-0 text-body-secondary">
+                Todos os direitos reservados. © 2021 - 2024 Designed by Islu Web Design
+            </small>
+            <a href="#"
+                class="col-12 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="img/icons/icon_islu_tp.svg" alt="Islu Web Design" width="50" height="50">
+            </a>
         </footer>
     </div>
 
@@ -87,6 +132,7 @@
     <script src="jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script type="module" src="js/projects.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

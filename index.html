@@ -14,10 +14,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body> 
+    <!-- loading -->
+    <div class="loading">
+        <img src="img/loading_islu.gif" alt="Carregando" class="loading-img">
+    </div>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="img/icons/icon_islu_tp.svg" alt="Islu Web Design" width="50" height="50">
@@ -30,10 +34,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Quem Somos</a>
+                        <a class="nav-link" href="#services">O que Fazemos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">O que Fazemos</a>
+                        <a class="nav-link" href="#about">Quem Somos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projetos</a>
@@ -46,74 +50,91 @@
         </div>
     </nav>
 
-    <!-- about -->
-    <section id="about" class="container">
-        <div class="row">
-            <div class="col-md-6 div-img-about">
-                <img src="img/about_example.jpg" alt="Quem Somos" class="img-fluid img-about">
+    <!-- banner -->
+    <header class="header-design">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <h3 class="title-banner">
+                        Sua Visão, Nosso Design
+                    </h3>
+                    <p class="text-banner">
+                        Criamos a solução digital ideal para o seu sucesso,
+                        combinando inovação, design personalizado e resultados que impactam.
+                    </p>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <img src="img/capa_about.svg" alt="Islu Web Design" class="img-banner" width="300" height="350">
+                </div>
+                <div class="col-md-12 mb-5">
+                    <button href="#about" class="btn btn-banner">
+                        Veja Como Podemos Ajudar
+                    </button>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h2>Sua Visão, Nosso Design</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    . Nulla nec purus feugiat, molestie ipsum et, consequat nibh.
-                    Etiam non elit dui. Nullam vel erat et nunc egestas congue.
-                    Nullam vitae luctus dui. Aenean nec varius mi. Aenean semper,
-                    nisl nec tincidunt pulvinar, nunc quam feugiat nunc, nec porta est
-                    libero quis nibh. Pellentesque habitant morbi tristique senectus et
-                    netus et malesuada fames ac turpis egestas. Donec vel leo egestas,
-                    finibus felis ac, luctus felis.
-                    Nullam vitae luctus dui. Aenean nec varius mi. Aenean semper,
-                    nisl nec tincidunt pulvinar, nunc quam feugiat nunc, nec porta est
-                    libero quis nibh. Pellentesque habitant morbi tristique senectus et
-                    netus et malesuada fames ac turpis egestas. Donec vel leo egestas,
-                    finibus felis ac, luctus felis.
-                    Nullam vitae luctus dui. Aenean nec varius mi. Aenean semper,
-                    nisl nec tincidunt pulvinar, nunc quam feugiat nunc, nec porta est
-                    libero quis nibh. Pellentesque habitant morbi tristique senectus et
-                    netus et malesuada fames ac turpis egestas. Donec vel leo egestas,
-                    finibus felis ac, luctus felis.
-                </p>
-            </div>
+        </div>
+        <div class="footer-wave"></div>
+    </header>
+
+    <section class="container animate" id="services">
+        <div class="row listar-feature-items" id="services-container">
         </div>
     </section>
 
-    <!-- services -->
-    <section id="services" class="carousel-container">
-        <h2 class="text-center py-2 text-pink">
-            Nossas Especialidades
-        </h2>
-        <div class="carousel" id="carousel">
-        </div>
-    </section>
+    <!-- about -->
+    <!-- <section id="about" class="container animate">
+        <div class="row"> 
+            <div class="col-md-6">
+                <h2>Quem Somos</h2>
+                <p>
+                    A Islu Web Design é uma agência digital especializada em criar soluções digitais personalizadas para
+                    marcas que desejam se destacar no mundo online. Nossa missão é transformar ideias em realidade,
+                    combinando inovação, design e tecnologia para criar experiências digitais únicas e impactantes.
+                </p>
+                <p>
+                    Nossa visão é ser referência em design digital, criando soluções que geram resultados reais para
+                    nossos clientes. Nossos valores são a criatividade, a inovação, a qualidade e a transparência, que
+                    nos
+                    guiam em cada projeto que realizamos.
+                </p> 
+            </div>
+    </section> -->
 
     <!-- projects -->
-    <section id="projects" class="container py-3">
+    <section id="projects" class="container py-3 animate">
         <h2 class="text-center py-2">
             Projetos
         </h2>
         <div class="row" id="project-container">
         </div>
         <div class="text-center">
-            <a class="btn btn-lg btn-projects" href="projects.html">
+            <!-- <a class="btn btn-lg btn-projects" href="projects.html">
                 Ver Mais
-            </a>
+            </a> -->
         </div>
     </section>
 
-    <section id="contact" class="container">
+    <!-- clients -->
+    <section id="clients" class="carousel-container animate">
+        <h2 class="text-center py-2 text-pink">
+            Marcas que Confiaram e Transformaram
+        </h2>
+        <div class="carousel-clients" id="carousel-clients">
+        </div>
+    </section>
+
+    <section id="contact" class="container animate">
         <div class="row">
 
             <div class="col-md-6">
                 <h2>Contato</h2>
                 <p>
                     Estamos prontos para transformar suas ideias em realidade! Entre em contato e descubra como podemos
-                    ajudar sua marca a brilhar no mundo digital. 
+                    ajudar sua marca a brilhar no mundo digital.
                     Preencha o formulário abaixo ou fale conosco via WhatsApp clicando no ícone no canto inferior.
                 </p>
 
-                <!-- form com inputs nome, whatsapp, mensagem e botao-->
-                <form action="send.php" method="post" class="form">
+                <form class="form">
                     <div class="mb-3">
                         <label for="name" class="form-label">Nome</label>
                         <input type="text" class="form-control" id="name" name="name" required>
@@ -123,35 +144,61 @@
                         <input type="tel" class="form-control" id="whatsapp" name="whatsapp" required>
                     </div>
                     <div class="mb-3">
+                        <label for="solucao" class="form-label">Solução Desejada</label>
+                        <select class="form-select" id="solucao" name="solucao" required>
+                            <option value="" selected disabled>Selecione a Solução</option>
+                            <option value="landing-page">Landing Page</option>
+                            <option value="ux-ui">UX/UI Design</option>
+                            <option value="website">Website</option>
+                            <option value="identidade-visual">Identidade Visual</option>
+                            <option value="logotipo">Logotipo</option>
+                            <option value="aplicativo-web">Aplicativo Web</option>
+                            <option value="arte-grafica">Arte Gráfica</option>
+                            <option value="animacao">Animação</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
                         <label for="message" class="form-label">Mensagem</label>
                         <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">
+                    <button type="button" onclick="btnSend()" class="btn btn-pink w-100">
                         Entrar no mundo digital
-                        <i class="fas fa-arrow-right"></i>
+                        <!-- <i class="fas fa-arrow-right"></i> -->
                     </button>
                 </form>
 
             </div>
 
             <div class="col-md-6 div-img-contact">
-                <img src="img/about_example.jpg" alt="Quem Somos" class="img-fluid img-contact">
+                <img src="img/capa_contact.svg" alt="Contato" class="img-fluid img-contact">
             </div>
         </div>
     </section>
 
     <!-- footer -->
     <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <small class="col-md-4 mb-0 text-body-secondary">
-                © 2021 ~ 2024 Islu Web Design
-            </small>
+        <footer class="flex-wrap justify-content-between align-items-center py-3 my-4 border-top footer-desktop">
+            <small class="col-md-4 text-body-secondary">Sua Visão, Nosso Design</small>
 
             <a href="/"
                 class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                 <img src="img/icons/icon_islu_tp.svg" alt="Islu Web Design" width="50" height="50">
             </a>
-            <small class="text-body-secondary">Sua Visão, Nosso Design</small>
+            <small class="col-md-4 mb-0 text-body-secondary">
+                Todos os direitos reservados. © 2021 - 2024 Designed by Islu Web Design
+            </small>
+        </footer>
+
+        <footer class="row py-3 my-4 border-top footer-mobile text-center">
+            <small class="col-12 text-body-secondary">Sua Visão, Nosso Design</small>
+            <small class="col-12 mb-0 text-body-secondary">
+                Todos os direitos reservados. © 2021 - 2024 Designed by Islu Web Design
+            </small>
+            <a href="#"
+                class="col-12 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="img/icons/icon_islu_tp.svg" alt="Islu Web Design" width="50" height="50">
+            </a>
         </footer>
     </div>
 
@@ -167,13 +214,12 @@
         <div class="popup-content">
 
             <!-- Lista de imagens -->
-            <img src="https://images.pexels.com/photos/12211113/pexels-photo-12211113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Imagem 1" id="popup-img-1" class="popup-img">
+            <a href="https://wa.me/5531999105993?text=Olá!%20Eu%20vim%20pelo%20site%20da%20Islu%20Web%20Design%20🌐✨%20Estou%20interessado%20na%20promoção%20da%20Black%20Friday!"
+                target="_blank">
+            <img src="img/popup/black_friday.png" alt="Imagem 1" id="popup-img-1" class="popup-img">
             <!-- <img src="https://images.pexels.com/photos/3002463/pexels-photo-3002463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Imagem 2" id="popup-img-2" class="popup-img" style="display: none;">
-            <img src="https://images.pexels.com/photos/14596081/pexels-photo-14596081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Imagem 3" id="popup-img-3" class="popup-img" style="display: none;"> -->
-
+                alt="Imagem 2" id="popup-img-2" class="popup-img" style="display: none;"> -->
+            </a>
             <!-- Fechar -->
             <button class="popup-close-btn" onclick="closePopup()">
                 <i class="fas fa-xmark"></i>
@@ -187,7 +233,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script type="module" src="js/script.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/contact.js"></script>
     <script src="js/popup.js"></script>
 </body>
 
