@@ -1,6 +1,6 @@
 // Dados dos projetos
 export const projetos = [
-    //{
+    // {
     //     titulo: "Projeto 1",
     //     descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     //     imagem: "img/projects/examples/1.jpg",

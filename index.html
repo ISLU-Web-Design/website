@@ -17,7 +17,7 @@
 <body> 
     <!-- loading -->
     <div class="loading">
-        <img src="img/loading_islu.gif" alt="Carregando" class="loading-img">
+        <img src="img/loading_islu.gif" alt="Carregando" class="loading-img w-100">
     </div>
 
     <!-- navbar -->
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="#services">O que Fazemos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Quem Somos</a>
+                        <a class="nav-link" href="#about">Sobre Nós</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projetos</a>
@@ -67,7 +67,7 @@
                     <img src="img/capa_about.svg" alt="Islu Web Design" class="img-banner" width="300" height="350">
                 </div>
                 <div class="col-md-12 mb-5">
-                    <button href="#about" class="btn btn-banner">
+                    <button class="btn btn-banner" onclick="window.location.href = '#about'">
                         Veja Como Podemos Ajudar
                     </button>
                 </div>
@@ -76,59 +76,150 @@
         <div class="footer-wave"></div>
     </header>
 
-    <section class="container animate" id="services">
+    <section class="container animate py-3" id="services">
         <div class="row listar-feature-items" id="services-container">
         </div>
     </section>
 
     <!-- about -->
-    <!-- <section id="about" class="container animate">
-        <div class="row"> 
-            <div class="col-md-6">
-                <h2>Quem Somos</h2>
-                <p>
+    <section id="about" class="container animate py-3 my-4">
+        <div class="row">   
+            <div class="col-12 col-md-3 col-lg-3">
+                <h2 class="title-about">
+                    <i class="fas fa-question-circle"></i>
+                    O que fazemos?
+                </h2> 
+
+                <p class="text-about">
                     A Islu Web Design é uma agência digital especializada em criar soluções digitais personalizadas para
                     marcas que desejam se destacar no mundo online. Nossa missão é transformar ideias em realidade,
                     combinando inovação, design e tecnologia para criar experiências digitais únicas e impactantes.
                 </p>
-                <p>
+
+                <button class="btn btn-blue mb-4 w-100" onclick="window.location.href = '#services'">
+                    Saiba Mais
+                </button>
+
+                <h2 class="title-about">
+                    <i class="fas fa-eye"></i>
+                    Como fazemos?
+                </h2> 
+
+                <p class="text-about">
                     Nossa visão é ser referência em design digital, criando soluções que geram resultados reais para
                     nossos clientes. Nossos valores são a criatividade, a inovação, a qualidade e a transparência, que
-                    nos
-                    guiam em cada projeto que realizamos.
-                </p> 
+                    nos guiam em cada projeto que realizamos.
+                </p>
             </div>
-    </section> -->
+
+            <div class="col-12 col-md-5 col-lg-5">
+                <img src="img/capa_header.svg" alt="Islu Web Design" class="img-fluid">
+            </div>
+            
+            <div class="col-12 col-md-4 col-lg-4">
+                <h2 class="title-about">
+                    <i class="fas fa-users"></i>
+                    Quem Somos?
+                </h2> 
+
+                <p class="text-about">
+                    Somos uma equipe de designers, desenvolvedores e especialistas em marketing digital apaixonados por
+                    criar soluções digitais inovadoras e impactantes. Nossa equipe é formada por profissionais
+                    experientes e talentosos, que trabalham juntos para transformar ideias em realidade e ajudar nossos
+                    clientes a alcançar seus objetivos.
+                </p>
+
+                <button class="btn btn-blue mb-4 w-100" onclick="window.location.href = '#contact'">
+                    Entre em Contato
+                </button>
+
+                <h2 class="title-about">
+                    <i class="fas fa-lightbulb"></i>
+                    Por que escolher a Islu?
+                </h2>
+
+                <p class="text-about">
+                    Escolher a Islu Web Design significa contar com uma equipe de profissionais dedicados a criar
+                    soluções digitais personalizadas que geram resultados reais para sua marca. Nossa abordagem
+                    personalizada, nossa paixão pela inovação e nossa atenção aos detalhes nos tornam a escolha ideal
+                    para transformar suas ideias em realidade.
+                </p>
+            </div>
+
+            <div class="col-12 d-flex mb-4 div-cards-counter">
+                <div class="card-counter">
+                    <small>Anos no Mercado</small>
+                    <div class="counter-box">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h2 class="counter" data-target="4">+0</h2>
+                    </div>
+                </div>
+
+                <div class="card-counter">
+                    <small>Clientes Satisfeitos</small>
+                    <div class="counter-box">
+                        <i class="fas fa-users"></i>
+                        <h2 class="counter"data-target="45">+0</h2> 
+                    </div>
+                </div>
+
+
+                <div class="card-counter">
+                    <small>Projetos Entregues</small>
+                    <div class="counter-box">
+                        <i class="fas fa-tasks"></i>
+                        <h2 class="counter" data-target="60">+0</h2>
+                    </div>
+                </div>
+
+                <div class="card-counter">
+                    <small>Cidades Alcançadas</small>
+                    <div class="counter-box">
+                        <i class="fas fa-city"></i>
+                        <h2 class="counter" data-target="11">+0</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <!-- projects -->
     <section id="projects" class="container py-3 animate">
-        <h2 class="text-center py-2">
-            Projetos
+        <h2 class="title-projects text-center py-2">
+            Projetos Recentes
         </h2>
+        <p class="text-center text-secondary text-projects">
+            Conheça alguns dos projetos que realizamos para nossos clientes e descubra como podemos ajudar sua marca a
+            brilhar no mundo digital.
+        </p>
         <div class="row" id="project-container">
         </div>
         <div class="text-center">
-            <!-- <a class="btn btn-lg btn-projects" href="projects.html">
+            <a class="btn btn-lg btn-projects mb-5" href="projects.html">
                 Ver Mais
-            </a> -->
+            </a>
         </div>
     </section>
 
     <!-- clients -->
-    <section id="clients" class="carousel-container animate">
-        <h2 class="text-center py-2 text-pink">
-            Marcas que Confiaram e Transformaram
+    <section id="clients" class="carousel-container animate mb-5">
+        <h2 class="text-center py-2 title-clients">
+            Nossos Clientes
         </h2>
+        <p class="text-center text-secondary text-clients py-3">
+            Conheça algumas das marcas que confiaram em nosso trabalho e transformaram suas ideias em realidade conosco.
+        </p>
         <div class="carousel-clients" id="carousel-clients">
         </div>
     </section>
 
-    <section id="contact" class="container animate">
+    <section id="contact" class="container animate py-3">
         <div class="row">
 
             <div class="col-md-6">
-                <h2>Contato</h2>
-                <p>
+                <h2 class="title-contact">Contato</h2>
+                <p class="text-contact">
                     Estamos prontos para transformar suas ideias em realidade! Entre em contato e descubra como podemos
                     ajudar sua marca a brilhar no mundo digital.
                     Preencha o formulário abaixo ou fale conosco via WhatsApp clicando no ícone no canto inferior.
@@ -178,7 +269,94 @@
 
     <!-- footer -->
     <div class="container">
-        <footer class="flex-wrap justify-content-between align-items-center py-3 my-4 border-top footer-desktop">
+
+        <div class="row py-3">
+
+            <hr class="hr-footer "> 
+
+            <div class="col-12 col-md-4 col-lg-4 col-footer">
+                <h3 class="title-footer">Links Úteis</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#services" class="link-footer">
+                            <i class="fas fa-angle-right"></i>
+                            O que Fazemos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="link-footer">
+                            <i class="fas fa-angle-right"></i>
+                            Sobre Nós
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="link-footer">
+                            <i class="fas fa-angle-right"></i>
+                            Projetos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="link-footer">
+                            <i class="fas fa-angle-right"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-4 col-footer">
+                <h3 class="title-footer">Contato</h3>
+                <ul class="list-unstyled">
+                    <li class="link-footer">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="text-footer">Belo Horizonte - MG</span>
+                    </li>
+                    <li class="link-footer">
+                        <i class="fab fa-whatsapp"></i>
+                        <span class="text-footer">
+                            <a href="https://wa.me/5531999105993" class="link-footer">
+                                (31) 99910-5993
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span class="text-footer">
+                            <a href="mailto:islu.webdesign@gmail.com" class="link-footer">
+                                islu.webdesign@gmail.com
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-4 col-footer">
+                <h3 class="title-footer">Siga-nos</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.instagram.com/islu.webdesign/" target="_blank" class="link-footer">
+                            <i class="fab fa-instagram"></i>
+                            <span class="text-footer">Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/people/ISLU-Web-Design/61568957578451/" target="_blank" class="link-footer">
+                            <i class="fab fa-facebook"></i>
+                            <span class="text-footer">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ISLU-Web-Design" target="_blank" class="link-footer">
+                            <i class="fas fa-globe"></i>
+                            <span class="text-footer">GitHub</span>
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+
+        </div>
+
+        <footer class="flex-wrap justify-content-between align-items-center py-3 footer-desktop">
             <small class="col-md-4 text-body-secondary">Sua Visão, Nosso Design</small>
 
             <a href="/"
@@ -190,7 +368,7 @@
             </small>
         </footer>
 
-        <footer class="row py-3 my-4 border-top footer-mobile text-center">
+        <footer class="row py-3 footer-mobile text-center">
             <small class="col-12 text-body-secondary">Sua Visão, Nosso Design</small>
             <small class="col-12 mb-0 text-body-secondary">
                 Todos os direitos reservados. © 2021 - 2024 Designed by Islu Web Design
