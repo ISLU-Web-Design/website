@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISLU Web Design | Portfólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <!--Icon-->
+    <link rel="icon" href="assets/images/logo/icon_islu.png" type="image/png">
+    <style>
+        .navbar {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar Fixa -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <img src="assets/images/logo/icon_islu.png" alt="Logo ISLU Web Design" class="navbar-logo">
+                ISLU Web Design
+            </div>
+            <nav class="navbar-menu" id="navbarMenu">
+                <!-- Itens serão preenchidos via JavaScript -->
+            </nav>
+            <button class="navbar-toggle" id="navbarToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content" id="mainContent">
+        <!-- Tela Inicial -->
+        <section class="home-section" id="homeSection">
+            <div class="hero">
+                <img src="assets/images/logo/icon_islu.png" alt="Logo ISLU Web Design" class="logo">
+                <h1>Portfólio ISLU Web Design</h1>
+                <h1>Criações Digitais que Transformam Negócios</h1>
+                <p>
+                    Design gráfico e desenvolvimento web com excelência e criatividade, focado em resultados. 
+                </p>
+
+                <small class="scroll-instruction">
+                    <i class="fas fa-arrow-down"></i> Role para baixo para ver as categorias de projetos e selecionar o que mais lhe interessa.
+                </small>
+
+            </div>
+            
+            <div class="categories-grid" id="categoriesGrid">
+                <!-- Categorias serão preenchidas via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Páginas de Categorias serão injetadas aqui dinamicamente -->
+    </main>
+
+    <!-- Botão Whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=5531999105993" class="whatsapp-button" target="_blank" id="whatsappButton" title="Fale Conosco">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Rodapé -->
+    <footer class="footer"> 
+        <div class="footer-copyright">
+            <p>
+                Todos os direitos reservados. © 2021-2025 Designed by Islu Web Design
+            </p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html> 
