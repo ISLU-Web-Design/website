@@ -180,14 +180,14 @@ const projectsDatabase = {
         {
             "titulo": "Grace Gourmet",
             "descricao": "",
-            "imagens": [
+            "imagem": [
                 "assets/images/projetos/redes_grace.png",
             ]
         },
         {
             "titulo": "Bianca Drinks",
             "descricao": "",
-            "imagens": [
+            "imagem": [
                 "assets/images/projetos/redes_bianca.png",
             ]
         },
