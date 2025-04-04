@@ -128,7 +128,7 @@ const projectsDatabase = {
         },
         {
             "titulo": "Logotipo - Renata Martins Treinadora",
-            "descricao": "",
+            "descricao": "A logo transmite força e determinação com a ilustração detalhada de um lobo, simbolizando liderança e resiliência. A tipografia moderna e marcante em tons de roxo reforça a energia e a confiança, enquanto o fundo sutil cria um equilíbrio entre intensidade e sofisticação, representando a essência da treinadora.",
             "imagem": "assets/images/projetos/renata_logo.png"
         },
         {
@@ -156,21 +156,21 @@ const projectsDatabase = {
     "Posts para Redes Sociais": [
         {
             "titulo": "Salão Infantil Cabelinhos",
-            "descricao": "",
+            "descricao": "Criação de artes personalizadas para as redes sociais do Salão Infantil Cabelinho, transmitindo leveza, alegria e conexão com o público infantil. O design lúdico, com cores vibrantes e elementos gráficos divertidos, reforça a identidade acolhedora do salão. As postagens celebram momentos especiais, como eventos temáticos e atendimentos personalizados, destacando a dedicação da equipe e a experiência encantadora oferecida às crianças.",
             "imagens": [
                 "assets/images/projetos/redes_cabelinhos.png",
             ]
         },
         {
             "titulo": "Ana Pires Psicóloga",
-            "descricao": "",
+            "descricao": "Desenvolvimento de conteúdo visual para divulgação de serviços psicológicos. Design clean e acolhedor, transmitindo sensibilidade e profissionalismo, com foco no fortalecimento da autoestima e bem-estar emocional.",
             "imagens": [
                 "assets/images/projetos/redes_ana_psicologa.png",
             ]
         },
         {
             "titulo": "Gaby Trancista",
-            "descricao": "",
+            "descricao": "Criação de materiais para divulgação de serviços capilares. Identidade visual harmônica e inspiradora, ressaltando a beleza natural e os cuidados essenciais para manter os fios saudáveis e estilosos.",
             "imagens": [
                 "assets/images/projetos/redes_gaby.png",
             ]
@@ -179,14 +179,14 @@ const projectsDatabase = {
     "Stories para Instagram": [
         {
             "titulo": "Grace Gourmet",
-            "descricao": "",
+            "descricao": "Artes visuais para a campanha promocional de um evento gastronômico. Design vibrante e atrativo, destacando sabores e a experiência única do festival, incentivando a participação do público.",
             "imagem": [
                 "assets/images/projetos/redes_grace.png",
             ]
         },
         {
             "titulo": "Bianca Drinks",
-            "descricao": "",
+            "descricao": "Criação de identidade visual para divulgação de drinks especiais. Design sofisticado e elegante, transmitindo requinte e qualidade para atrair clientes interessados em eventos e coquetéis exclusivos.",
             "imagem": [
                 "assets/images/projetos/redes_bianca.png",
             ]
@@ -195,21 +195,21 @@ const projectsDatabase = {
     "Criativos para Anúncios": [
         {
             "titulo": "Abraçar Soluções",
-            "descricao": "",
+            "descricao": "Cursos Online Gratuitos – Criativos destacam oportunidades de capacitação gratuita em diversas áreas, como estética, saúde e atendimento. O design vibrante, com tipografia chamativa e cores contrastantes, reforça a urgência e atratividade das vagas abertas.",
             "imagens": [
                 "assets/images/projetos/criativo_abracar.png",
             ]
         },
         {
             "titulo": "Plamev",
-            "descricao": "",
+            "descricao": "Plano de Saúde para Pets – Publicação promocional anuncia um novo plano de saúde para cães e gatos, enfatizando proteção e bem-estar. O layout usa cores acolhedoras e imagens de pets para criar uma conexão emocional com o público.",
             "imagens": [
                 "assets/images/projetos/criativo_plamev.png",
             ]
         },
         {
             "titulo": "Mentoria Financeira",
-            "descricao": "",
+            "descricao": "Criativo voltado para quem busca organizar suas finanças, oferecendo mentoria online e presencial. A comunicação transmite credibilidade e proximidade, com um design elegante e informativo, destacando a chamada para ação.",
             "imagens": [
                 "assets/images/projetos/criativo_viviane.png",
             ]
@@ -218,26 +218,26 @@ const projectsDatabase = {
     "Banner Digital": [
         {
             "titulo": "Vendinha de Papel",
-            "descricao": "",
+            "descricao": "Criação de arte vibrante e colorida para campanha de volta às aulas. O design utiliza um fundo roxo com elementos escolares como lápis, réguas, tesouras e clips, transmitindo um clima dinâmico e educativo. ",
             "imagem": "assets/images/projetos/banner_vendinha_papel.png"
         },
     ],
     "Cartão de Visita": [
         {
             "titulo": "Ana Pires Psicóloga",
-            "descricao": "",
+            "descricao": "O cartão reforça a identidade acolhedora da marca, utilizando tons suaves e um design limpo. A ilustração do cérebro com coração reforça a empatia e equilíbrio emocional. A tipografia moderna e os ícones sutis criam um material profissional e acessível.",
             "imagem": "assets/images/projetos/cartao_ana_psicologa.png"
         },
     ],
     "Artes Gráficas Diversas": [
         {
             "titulo": "Encontro de Voluntários",
-            "descricao": "",
+            "descricao": "Uma identidade visual vibrante e inspiradora, destacando união e solidariedade. Os ícones das pessoas comemorando reforçam o espírito de coletividade e gratidão, criando uma identidade envolvente e motivadora.",
             "imagem": "assets/images/projetos/cartao_agradecimento_impacto.png"
         },
         {
             "titulo": "Vitrine Cícero Barbearia",
-            "descricao": "",
+            "descricao": "Design exclusivo para a vitrine da Cícero Barbearia, destacando a sofisticação e a versatilidade dos serviços oferecidos. A composição moderna em preto, branco e dourado reforça a identidade premium da marca, enquanto as imagens geométricas apresentam cortes e estilos masculinos e femininos. A vitrine comunica profissionalismo e elegância, além de reforçar o atendimento personalizado, incluindo serviços em domicílio.",
             "imagem": "assets/images/projetos/vitrine_cicero.png"
         },
     ],
