@@ -40,6 +40,12 @@ const projectsDatabase = {
             "imagem": "assets/images/projetos/layout_landing_page.png",
             "link": "https://isluwebdesign.com.br/landing_page"
         },
+        {
+            "titulo": "Landing Page - Curso Empreender Para Crescer",
+            "descricao": "",
+            "imagem": "assets/images/projetos/curso_empreender.png",
+            "link": "https://amaple28.github.io/empreenderparacrescer/"
+        },
     ],
     "Website": [
         {
@@ -318,6 +324,11 @@ const projectsDatabase = {
             "titulo": "Vendinha de Papel",
             "descricao": "Criação de arte vibrante e colorida para campanha de volta às aulas. O design utiliza um fundo roxo com elementos escolares como lápis, réguas, tesouras e clips, transmitindo um clima dinâmico e educativo. ",
             "imagem": "assets/images/projetos/banner_vendinha_papel.png"
+        },
+        {
+            "titulo": "Mentoria Para Negócios",
+            "descricao": "",
+            "imagem": "assets/images/projetos/banner_empreender.png"
         },
     ],
     "Cartão de Visita": [
