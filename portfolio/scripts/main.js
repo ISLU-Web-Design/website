@@ -337,6 +337,11 @@ const projectsDatabase = {
             "descricao": "O cartão reforça a identidade acolhedora da marca, utilizando tons suaves e um design limpo. A ilustração do cérebro com coração reforça a empatia e equilíbrio emocional. A tipografia moderna e os ícones sutis criam um material profissional e acessível.",
             "imagem": "assets/images/projetos/cartao_ana_psicologa.png"
         },
+        {
+            "titulo": "Islu Web Design",
+            "descricao": "",
+            "imagem": "assets/images/projetos/cartao_islu.png"
+        },
     ],
     "Capa Youtube": [
         {
