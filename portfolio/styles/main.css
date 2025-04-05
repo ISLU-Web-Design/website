@@ -431,6 +431,16 @@ body.navbar-mobile-active {
     overflow: hidden;
 }
 
+.video-player-reels {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
 /* Back Button */
 .back-button {
     display: inline-block;

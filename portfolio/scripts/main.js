@@ -6,17 +6,17 @@ const categories = [
     { "nome": "Sistema Web", "icone": "fas fa-cogs" },
     { "nome": "Logotipo", "icone": "fas fa-paint-brush" },
     // { "nome": "Identidade Visual", "icone": "fas fa-palette" },
-    // { "nome": "UX/UI", "icone": "fas fa-desktop" },
+    { "nome": "UX/UI", "icone": "fas fa-desktop" },
     { "nome": "Posts para Redes Sociais", "icone": "fas fa-share-alt" },
     // { "nome": "Carrossel para Instagram", "icone": "fas fa-images" },
     { "nome": "Stories para Instagram", "icone": "fas fa-camera" },
     { "nome": "Criativos para Anúncios", "icone": "fas fa-bullhorn" },
     { "nome": "Banner Digital", "icone": "fas fa-ad" },
     { "nome": "Cartão de Visita", "icone": "fas fa-address-card" },
-    // { "nome": "Capa Youtube", "icone": "fas fa-video" },
+    { "nome": "Capa Youtube", "icone": "fas fa-video" },
     { "nome": "Artes Gráficas Diversas", "icone": "fas fa-th" },
-    // { "nome": "Reels para Instagram", "icone": "fas fa-film" },
-    // { "nome": "Vídeos Diversos", "icone": "fas fa-video" }
+    { "nome": "Reels para Instagram", "icone": "fas fa-film" },
+    { "nome": "Vídeos Diversos", "icone": "fas fa-video" }
 ];
 
 // Dados de Exemplo dos Projetos (simulando um banco de dados)
@@ -33,6 +33,12 @@ const projectsDatabase = {
             "descricao": "Desenvolvemos a landing page do Curso de Capacitação Presencial sobre TEA, com foco em uma comunicação clara, objetiva e acolhedora. A página foi estruturada para apresentar o conteúdo do curso de forma estratégica, destacando os benefícios da capacitação e incentivando a inscrição. Com design responsivo, otimização para carregamento rápido e integração com canais de contato, a landing page busca transformar o interesse em ação, conectando quem deseja compreender e apoiar melhor pessoas com Transtorno do Espectro Autista (TEA).",
             "imagem": "assets/images/projetos/curso_tea.png",
             "link": "https://cursotea.abracarensinoead.com.br/"
+        },
+        {
+            "titulo": "Landing Page - Layout Produto Digital",
+            "descricao": "Desenvolvemos um exemplo de landing page inspirado em um produto digital fictício, com foco total em performance, conversão e experiência do usuário. Utilizamos estratégias modernas de design, copywriting e usabilidade para mostrar como um produto pode ser apresentado de forma clara, atrativa e eficiente.",
+            "imagem": "assets/images/projetos/layout_landing_page.png",
+            "link": "https://isluwebdesign.com.br/landing_page"
         },
     ],
     "Website": [
@@ -147,11 +153,68 @@ const projectsDatabase = {
             "imagem": "assets/images/projetos/elias_logo.png"
         },
         {
+            "titulo": "Logotipo - La Maré Mode",
+            "descricao": "O logotipo apresenta o nome “La Maré” em uma tipografia serifada dourada, elegante e imponente, com traços fluidos que remetem à feminilidade e ao movimento natural da moda. Abaixo, o termo “MODE” aparece em uma fonte sans-serif minimalista, também em dourado, reforçando o contraste entre o clássico e o moderno.",
+            "imagem": "assets/images/projetos/lamare_logo.png"
+        },
+        {
+            "titulo": "Logotipo - Exemplo Brasão",
+            "descricao": "Logotipo inspirado em brasões tradicionais, com elementos que representam força, história e identidade regional. Uma referência visual rica para futuras criações institucionais.",
+            "imagem": "assets/images/projetos/brasao_colegio.png"
+        },
+        {
             "titulo": "Logotipo - Desafio Renata",
             "descricao": "A logo do Desafio Renata Martins transmite energia e motivação, com um coração levantando pesos, simbolizando força e saúde. As cores vibrantes e a tipografia marcante reforçam dinamismo e proximidade, criando uma identidade visual envolvente para o desafio fitness.",
             "imagem": "assets/images/projetos/desafio_renata_logo.png"
         },
+        {
+            "titulo": "Logotipo - Miau Kick Dojo",
+            "descricao": "A logo do MiauKick Dojo traz um gato lutador carismático em ação, com visual vibrante e postura determinada. Com cores fortes e um estilo dinâmico, transmite energia, foco e diversão — perfeita para academias infantis, jogos ou projetos com espírito de luta e aventura.",
+            "imagem": "assets/images/projetos/miaukick_dojo.png"
+        },
+        {
+            "titulo": "Logotipo - ConnectUp",
+            "descricao": "",
+            "imagem": "assets/images/projetos/connectup_logo.png"
+        },
+        {
+            "titulo": "Logotipo - Dexer Energia Solar",
+            "descricao": "",
+            "imagem": "assets/images/projetos/dexer_logo.png"
+        },
+        {
+            "titulo": "Logotipo - Luari Nails",
+            "descricao": "",
+            "imagem": "assets/images/projetos/luari_logo.png"
+        },
+        {
+            "titulo": "Logotipo - ECOALERT",
+            "descricao": "",
+            "imagem": "assets/images/projetos/ecoalert_logo.png"
+        },
+        {
+            "titulo": "Logotipo - Renovex",
+            "descricao": "",
+            "imagem": "assets/images/projetos/renovex_logo.png"
+        },
+        {
+            "titulo": "Logotipo - PAB",
+            "descricao": "",
+            "imagem": "assets/images/projetos/pab_logo.png"
+        },
         
+    ],
+    "UX/UI": [
+        {
+            "titulo": "ECOALERT",
+            "descricao": "",
+            "imagem": "assets/images/projetos/ecoalert_uxui.png"
+        },
+        {
+            "titulo": "Dexer Energia Solar",
+            "descricao": "",
+            "imagem": "assets/images/projetos/dexer_uxui.png"
+        },
     ],
     "Posts para Redes Sociais": [
         {
@@ -166,6 +229,27 @@ const projectsDatabase = {
             "descricao": "Desenvolvimento de conteúdo visual para divulgação de serviços psicológicos. Design clean e acolhedor, transmitindo sensibilidade e profissionalismo, com foco no fortalecimento da autoestima e bem-estar emocional.",
             "imagens": [
                 "assets/images/projetos/redes_ana_psicologa.png",
+            ]
+        },
+        {
+            "titulo": "MFABIAN",
+            "descricao": "",
+            "imagens": [
+                "assets/images/projetos/redes_mfabian.png",
+            ]
+        },
+        {
+            "titulo": "Palestra Empreender Para Crescer",
+            "descricao": "",
+            "imagens": [
+                "assets/images/projetos/redes_viviane.png",
+            ]
+        },
+        {
+            "titulo": "Luari Nails",
+            "descricao": "",
+            "imagens": [
+                "assets/images/projetos/redes_luari.png",
             ]
         },
         {
@@ -189,6 +273,20 @@ const projectsDatabase = {
             "descricao": "Criação de identidade visual para divulgação de drinks especiais. Design sofisticado e elegante, transmitindo requinte e qualidade para atrair clientes interessados em eventos e coquetéis exclusivos.",
             "imagem": [
                 "assets/images/projetos/redes_bianca.png",
+            ]
+        },
+        {
+            "titulo": "Live Canal do Empreendedor",
+            "descricao": "",
+            "imagem": [
+                "assets/images/projetos/live_viviane.png",
+            ]
+        },
+        {
+            "titulo": "Grace Gourmet",
+            "descricao": "",
+            "imagem": [
+                "assets/images/projetos/redes_grace2.png",
             ]
         },
     ],
@@ -229,6 +327,13 @@ const projectsDatabase = {
             "imagem": "assets/images/projetos/cartao_ana_psicologa.png"
         },
     ],
+    "Capa Youtube": [
+        {
+            "titulo": "Canal do Empreendedor",
+            "descricao": "",
+            "imagem": "assets/images/projetos/capas_yt.png"
+        },
+    ],
     "Artes Gráficas Diversas": [
         {
             "titulo": "Encontro de Voluntários",
@@ -236,18 +341,60 @@ const projectsDatabase = {
             "imagem": "assets/images/projetos/cartao_agradecimento_impacto.png"
         },
         {
+            "titulo": "Marca-página Personalizado",
+            "descricao": "Criado para a charmosa papelaria Vendinha de Papel, este marca-página delicado combina praticidade e inspiração. Com um design floral suave, calendário anual no verso e a frase motivacional 'Não pare até se orgulhar de você!', ele é o companheiro ideal para suas leituras ao longo do ano.",
+            "imagem": "assets/images/projetos/marca_paginas.png"
+        },
+        {
             "titulo": "Vitrine Cícero Barbearia",
             "descricao": "Design exclusivo para a vitrine da Cícero Barbearia, destacando a sofisticação e a versatilidade dos serviços oferecidos. A composição moderna em preto, branco e dourado reforça a identidade premium da marca, enquanto as imagens geométricas apresentam cortes e estilos masculinos e femininos. A vitrine comunica profissionalismo e elegância, além de reforçar o atendimento personalizado, incluindo serviços em domicílio.",
             "imagem": "assets/images/projetos/vitrine_cicero.png"
         },
+        {
+            "titulo": "Cartão Lembrancinha ",
+            "descricao": "",
+            "imagem": "assets/images/projetos/cartao_lembrancinha_luari.png"
+        },
+        {
+            "titulo": "Banner Aulas Particulares",
+            "descricao": "",
+            "imagem": "assets/images/projetos/aulas_particulares.png"
+        },
+        {
+            "titulo": "Vitrine MFABIAN",
+            "descricao": "Arte criada especialmente para a vitrine da sala de reuniões da MFABIAN - Consultoria & Desenvolvimento Cosmético. Com uma identidade visual elegante e profissional, a composição valoriza a marca, transmite credibilidade e reforça a atuação no setor cosmético. O design harmoniza suavidade e sofisticação com elementos que destacam o propósito da empresa.",
+            "imagem": "assets/images/projetos/vitrine_mfabian.png"
+        },
+        {
+            "titulo": "Delivery Grace Gourmet",
+            "descricao": "Essas três peças foram desenvolvidas especialmente para transformar cada pedido da Grace Gourmet em uma experiência mágica para os clientes. Com uma linguagem leve, afetuosa e divertida, as artes acompanham os pedidos de delivery para acolher, encantar e arrancar sorrisos!",
+            "imagem": "assets/images/projetos/delivery_grace.png"
+        },
+        {
+            "titulo": "Banner Luari",
+            "descricao": "",
+            "imagem": "assets/images/projetos/banner_luari.png"
+        },
     ],
-    // "Vídeos Diversos": [
-    //     {
-    //         "titulo": "Vídeo Institucional - Escola",
-    //         "descricao": "Apresentação da estrutura e proposta pedagógica.",
-    //         "video": "assets/videos/video-escola.mp4"
-    //     }
-    // ]
+    "Reels para Instagram": [
+        {
+            "titulo": "Reels - Embalando Pedido",
+            "descricao": "",
+            "video": "assets/videos/pedido_grace.mp4"
+        }, 
+    ],
+    "Vídeos Diversos": [
+        {
+            "titulo": "Vídeo Institucional - AM.A.P.L.E.",
+            "descricao": "",
+            "video": "assets/videos/comercial_amaple.mp4"
+        },
+        {
+            "titulo": "Vídeo Empreender Para Crescer - Palestra",
+            "descricao": "",
+            "video": "assets/videos/palestra.mp4"
+        }, 
+    ],
 };
 
 // Elementos DOM
@@ -404,10 +551,25 @@ function loadCategoryProjects(categoryName, container) {
                 </div>
             `;
         }
-        else if (categoryName === 'Vídeos Diversos' || categoryName === 'Reels para Instagram') {
+        else if (categoryName === 'Vídeos Diversos') {
             // Projeto de vídeo - player
             projectCard.innerHTML = `
                 <div class="video-player">
+                    <video controls class="project-image">
+                        <source src="${project.video}" type="video/mp4">
+                        Seu navegador não suporta vídeos HTML5.
+                    </video>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">${project.titulo}</h3>
+                    <p class="project-description">${project.descricao}</p>
+                </div>
+            `;
+        }
+        else if (categoryName === 'Reels para Instagram') {
+            // Projeto de vídeo - player
+            projectCard.innerHTML = `
+                <div class="video-player-reels">
                     <video controls class="project-image">
                         <source src="${project.video}" type="video/mp4">
                         Seu navegador não suporta vídeos HTML5.
