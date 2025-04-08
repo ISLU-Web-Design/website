@@ -180,32 +180,32 @@ const projectsDatabase = {
         },
         {
             "titulo": "Logotipo - ConnectUp",
-            "descricao": "",
+            "descricao": "A logo da ConnectUp expressa movimento e progresso, com um ícone dinâmico de corredor em ação. A tipografia firme aliada ao gradiente roxo-laranja transmite energia, performance e conexão, ideal para uma marca voltada ao desenvolvimento pessoal ou esportivo.",
             "imagem": "assets/images/projetos/connectup_logo.png"
         },
         {
             "titulo": "Logotipo - Dexer Energia Solar",
-            "descricao": "",
+            "descricao": "Com traços geométricos e cores vibrantes, a identidade da Dexer representa tecnologia e sustentabilidade. O ícone solar central simboliza energia limpa e o compromisso com um futuro mais verde.",
             "imagem": "assets/images/projetos/dexer_logo.png"
         },
         {
             "titulo": "Logotipo - Luari Nails",
-            "descricao": "",
+            "descricao": "Minimalista e elegante, a logo da Luari traz uma flor de lótus estilizada, símbolo de beleza e cuidado. A paleta em tons terrosos reforça a sofisticação e serenidade, perfeita para o segmento de estética.",
             "imagem": "assets/images/projetos/luari_logo.png"
         },
         {
             "titulo": "Logotipo - ECOALERT",
-            "descricao": "",
+            "descricao": "A logo da EcoAlert é marcada por simplicidade e propósito. O pin central remete à localização e alerta ambiental, enquanto o verde escuro simboliza natureza, responsabilidade e preservação.",
             "imagem": "assets/images/projetos/ecoalert_logo.png"
         },
         {
             "titulo": "Logotipo - Renovex",
-            "descricao": "",
+            "descricao": "Moderna e fluida, a marca da Renovex aposta em um símbolo abstrato com linhas suaves e cores vibrantes, representando transformação, inovação e experiências renovadoras.",
             "imagem": "assets/images/projetos/renovex_logo.png"
         },
         {
             "titulo": "Logotipo - PAB",
-            "descricao": "",
+            "descricao": "A identidade visual do PAB é clara e objetiva: o ícone de folhas forma uma figura humana estilizada, reforçando a união entre natureza e sociedade. A tipografia clássica reforça seriedade e compromisso ambiental.",
             "imagem": "assets/images/projetos/pab_logo.png"
         },
         
@@ -213,7 +213,7 @@ const projectsDatabase = {
     "UX/UI": [
         {
             "titulo": "ECOALERT",
-            "descricao": "",
+            "descricao": "O design do aplicativo EcoAlert une propósito e funcionalidade, com uma paleta verde que reforça a conexão com a natureza e o compromisso ambiental. A interface é limpa e intuitiva, facilitando o acesso às principais funções como denúncias ambientais, localização de áreas críticas e interações com o ecossistema. Ícones bem definidos, mapa integrado e chat funcional garantem uma experiência fluida, acessível e engajada com causas sustentáveis.",
             "imagem": "assets/images/projetos/ecoalert_uxui.png"
         },
         {
@@ -239,21 +239,21 @@ const projectsDatabase = {
         },
         {
             "titulo": "MFABIAN",
-            "descricao": "",
+            "descricao": "As artes desenvolvidas para a MFABIAN combinam informação e cuidado com a estética. Com uma paleta suave em tons de rosa e uma composição leve, os posts transmitem dicas de cuidados com a pele no inverno de forma acolhedora e envolvente, reforçando autoridade e proximidade com o público.",
             "imagens": [
                 "assets/images/projetos/redes_mfabian.png",
             ]
         },
         {
             "titulo": "Palestra Empreender Para Crescer",
-            "descricao": "",
+            "descricao": "As postagens para a palestra 'Empreender Para Crescer' focam em despertar ação e senso de urgência. Com elementos contrastantes em preto, dourado e branco, a comunicação visual transmite seriedade e valor, incentivando a inscrição imediata no curso com base em princípios bíblicos.",
             "imagens": [
                 "assets/images/projetos/redes_viviane.png",
             ]
         },
         {
             "titulo": "Luari Nails",
-            "descricao": "",
+            "descricao": "As peças da Luari Nails foram pensadas para os stories, com foco em anúncios e avisos importantes. O uso de tons quentes e tipografia delicada comunica elegância e sofisticação, reforçando o posicionamento premium da marca no segmento de estética e unhas.",
             "imagens": [
                 "assets/images/projetos/redes_luari.png",
             ]
@@ -283,14 +283,14 @@ const projectsDatabase = {
         },
         {
             "titulo": "Live Canal do Empreendedor",
-            "descricao": "",
+            "descricao": "Este story foi desenvolvido com um visual moderno e atrativo, destacando a temática de uma live com foco no empreendedorismo. O uso de cores escuras com luzes neon transmite inovação e profissionalismo, enquanto o microfone e o destaque para o rosto da convidada humanizam o conteúdo e reforçam o convite para a audiência participar do evento ao vivo.",
             "imagem": [
                 "assets/images/projetos/live_viviane.png",
             ]
         },
         {
             "titulo": "Grace Gourmet",
-            "descricao": "",
+            "descricao": "Com uma paleta suave e elementos delicados, este story da Grace Gourmet valoriza o conceito de delivery afetivo. A imagem do pacote personalizado e a chamada direta reforçam a proposta de entregar não só comida, mas experiências e carinho. O design transmite doçura e confiança, essencial para atrair clientes no segmento alimentício.",
             "imagem": [
                 "assets/images/projetos/redes_grace2.png",
             ]
@@ -327,7 +327,7 @@ const projectsDatabase = {
         },
         {
             "titulo": "Mentoria Para Negócios",
-            "descricao": "",
+            "descricao": "Este banner combina elegância e propósito ao comunicar uma mentoria voltada ao crescimento empresarial segundo os princípios bíblicos. A composição com tons suaves e elementos florais transmite leveza e sensibilidade, enquanto a imagem central — com uma empresária ao lado de um foguete criativo — simboliza progresso, fé e ação estratégica. O layout harmonioso e a tipografia clássica reforçam a credibilidade da mentora Viviane Nunes e o valor transformador da proposta.",
             "imagem": "assets/images/projetos/banner_empreender.png"
         },
     ],
@@ -339,14 +339,14 @@ const projectsDatabase = {
         },
         {
             "titulo": "Islu Web Design",
-            "descricao": "",
+            "descricao": "Com um design ousado e contemporâneo, o cartão da ISLU Web Design transmite modernidade e autenticidade. As cores vibrantes em contraste com a tipografia elegante reforçam a identidade visual criativa da marca. Além de apresentar os principais serviços com clareza — como landing pages, identidade visual e desenvolvimento web — o layout valoriza a comunicação direta e objetiva, refletindo a essência jovem e inovadora do estúdio.",
             "imagem": "assets/images/projetos/cartao_islu.png"
         },
     ],
     "Capa Youtube": [
         {
             "titulo": "Canal do Empreendedor",
-            "descricao": "",
+            "descricao": "A identidade visual do Canal do Empreendedor é marcada por tons de azul que transmitem confiança, profissionalismo e estabilidade — elementos fundamentais no universo dos negócios. Os elementos gráficos como o microfone, ícones e a foto da apresentadora aproximam o público, reforçando o tom acessível e inspirador do canal. A composição moderna e informativa destaca o propósito de orientar e motivar novos empreendedores com conteúdos educativos e motivacionais.",
             "imagem": "assets/images/projetos/capas_yt.png"
         },
     ],
@@ -368,12 +368,12 @@ const projectsDatabase = {
         },
         {
             "titulo": "Cartão Lembrancinha ",
-            "descricao": "",
+            "descricao": "Design floral delicado que transmite carinho e atenção aos detalhes. A composição em moldura com elementos botânicos coloridos evoca um toque artesanal e acolhedor. A tipografia centralizada reforça a mensagem de afeto e exclusividade, ideal para pequenos presentes com valor emocional.",
             "imagem": "assets/images/projetos/cartao_lembrancinha_luari.png"
         },
         {
             "titulo": "Banner Aulas Particulares",
-            "descricao": "",
+            "descricao": "Arte vibrante e educativa, com ilustrações escolares lúdicas que despertam o interesse infantil. As cores primárias e o layout dinâmico transmitem energia, organização e profissionalismo. Informações destacadas por ícones facilitam a leitura rápida, ideal para divulgação de serviços pedagógicos.",
             "imagem": "assets/images/projetos/aulas_particulares.png"
         },
         {
@@ -388,26 +388,31 @@ const projectsDatabase = {
         },
         {
             "titulo": "Banner Luari",
-            "descricao": "",
+            "descricao": "Visual sofisticado e feminino com paleta em branco e laranja, que reforça a elegância e cuidado pessoal. A imagem da profissional transmite confiança e acolhimento. A tipografia minimalista em contraste com o corpo do texto destaca os serviços oferecidos, chamando a atenção para o agendamento.",
             "imagem": "assets/images/projetos/banner_luari.png"
         },
     ],
     "Reels para Instagram": [
         {
             "titulo": "Reels - Embalando Pedido",
-            "descricao": "",
+            "descricao": "Com um tom divertido e envolvente, o Reels desperta a curiosidade do público logo no início com o texto 'Ei, psiu!'. A paleta rosa e os ícones de embalagens ao fundo reforçam a identidade da marca Grace Gourmet, transmitindo cuidado e carinho em cada entrega. O formato vertical e o ritmo do conteúdo são ideais para captar a atenção nas redes sociais, destacando o processo artesanal da preparação do pedido.",
             "video": "assets/videos/pedido_grace.mp4"
+        }, 
+        {
+            "titulo": "Reels - Sua festa com Drinks ",
+            "descricao": "",
+            "video": "assets/videos/drinks_bianca.mp4"
         }, 
     ],
     "Vídeos Diversos": [
         {
             "titulo": "Vídeo Institucional - AM.A.P.L.E.",
-            "descricao": "",
+            "descricao": "Este vídeo institucional apresenta de forma clara e objetiva o propósito da AM.A.P.L.E., destacando os diferenciais da empresa no ramo agrícola. Com imagens de estufas verdes e trilha suave, transmite confiança, inovação e cuidado com o meio ambiente. A legenda 'A melhor atmosfera para longas eras!' reforça o compromisso com a durabilidade e qualidade dos produtos oferecidos.",
             "video": "assets/videos/comercial_amaple.mp4"
         },
         {
             "titulo": "Vídeo Empreender Para Crescer - Palestra",
-            "descricao": "",
+            "descricao": "O vídeo promocional da palestra 'Empreender Para Crescer' emociona e inspira. A narrativa visual mostra uma mulher em momento reflexivo, acompanhada por mensagens impactantes que falam diretamente ao público feminino. A trilha sonora é suave e envolvente, criando conexão emocional e promovendo a mentoria com sensibilidade e propósito",
             "video": "assets/videos/palestra.mp4"
         }, 
     ],
