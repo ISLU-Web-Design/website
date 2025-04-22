@@ -61,10 +61,22 @@ const projectsDatabase = {
             "link": "https://lunecria.com.br/"
         },
         {
+            "titulo": "Links Úteis - Achadinhos By Rapha",
+            "descricao": "",
+            "imagem": "assets/images/projetos/links_priscila.png",
+            "link": "#"
+        },
+        {
             "titulo": "Website - Associação Restaurando Vidas",
             "descricao": "Desenvolvemos o site da Comunidade Terapêutica Restaurando Vidas com o objetivo de transmitir acolhimento, esperança e transformação. A plataforma apresenta, de forma sensível e clara, o trabalho dedicado da equipe no apoio à recuperação de pessoas em luta contra a dependência química.",
             "imagem": "assets/images/projetos/restaurando_vidas.png",
             "link": "https://assrestaurandovidas.org.br/"
+        },
+        {
+            "titulo": "Links Úteis - Grace Gourmet",
+            "descricao": "",
+            "imagem": "assets/images/projetos/links_grace.png",
+            "link": "#"
         },
     ],
     "E-commerce":[
@@ -132,6 +144,11 @@ const projectsDatabase = {
             "titulo": "Logotipo - Bianca Drinks",
             "descricao": "A logo da Bianca In a Glass transmite sofisticação e elegância, com uma ilustração clássica de uma mulher apreciando uma taça. As linhas artísticas e os tons terrosos evocam requinte e exclusividade, criando uma identidade visual refinada para a marca.",
             "imagem": "assets/images/projetos/bianca_logo.png"
+        },
+        {
+            "titulo": "Logotipo - Achadinhos By Rapha",
+            "descricao": "",
+            "imagem": "assets/images/projetos/priscila_logo.png"
         },
         {
             "titulo": "Logotipo - Ana Pires Psicóloga",
@@ -238,6 +255,14 @@ const projectsDatabase = {
             ]
         },
         {
+            "titulo": "Bianca Drinks",
+            "descricao": "",
+            "imagens": [
+                "assets/images/projetos/redes_bianca2.png",
+                "assets/images/projetos/redes_bianca3.png",
+            ]
+        },
+        {
             "titulo": "MFABIAN",
             "descricao": "As artes desenvolvidas para a MFABIAN combinam informação e cuidado com a estética. Com uma paleta suave em tons de rosa e uma composição leve, os posts transmitem dicas de cuidados com a pele no inverno de forma acolhedora e envolvente, reforçando autoridade e proximidade com o público.",
             "imagens": [
@@ -305,7 +330,7 @@ const projectsDatabase = {
             ]
         },
         {
-            "titulo": "Plamev",
+            "titulo": "Criativos Plamev",
             "descricao": "Plano de Saúde para Pets – Publicação promocional anuncia um novo plano de saúde para cães e gatos, enfatizando proteção e bem-estar. O layout usa cores acolhedoras e imagens de pets para criar uma conexão emocional com o público.",
             "imagens": [
                 "assets/images/projetos/criativo_plamev.png",
@@ -316,6 +341,13 @@ const projectsDatabase = {
             "descricao": "Criativo voltado para quem busca organizar suas finanças, oferecendo mentoria online e presencial. A comunicação transmite credibilidade e proximidade, com um design elegante e informativo, destacando a chamada para ação.",
             "imagens": [
                 "assets/images/projetos/criativo_viviane.png",
+            ]
+        },
+        {
+            "titulo": "Criativos Plamev 2",
+            "descricao": "Plano de Saúde para Pets – Publicação promocional anuncia um novo plano de saúde para cães e gatos, enfatizando proteção e bem-estar. O layout usa cores acolhedoras e imagens de pets para criar uma conexão emocional com o público.",
+            "imagens": [
+                "assets/images/projetos/criativo_plamev2.png", 
             ]
         },
     ],
@@ -370,6 +402,16 @@ const projectsDatabase = {
             "titulo": "Cartão Lembrancinha ",
             "descricao": "Design floral delicado que transmite carinho e atenção aos detalhes. A composição em moldura com elementos botânicos coloridos evoca um toque artesanal e acolhedor. A tipografia centralizada reforça a mensagem de afeto e exclusividade, ideal para pequenos presentes com valor emocional.",
             "imagem": "assets/images/projetos/cartao_lembrancinha_luari.png"
+        },
+        {
+            "titulo": "Cardápio - Bianca Drinks",
+            "descricao": "",
+            "imagem": "assets/images/projetos/cardapio_bianca.png"
+        },
+        {
+            "titulo": "Voluntários Ação Páscoa - Impacto do Bem  ",
+            "descricao": "",
+            "imagem": "assets/images/projetos/cartao_agradecimento_pascoa.png"
         },
         {
             "titulo": "Banner Aulas Particulares",
